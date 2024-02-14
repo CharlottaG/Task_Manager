@@ -12,4 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // select option initialization
     var selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+
+//collapsables initialization
+    var collapsables = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsables);
   });
